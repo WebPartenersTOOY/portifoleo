@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 --root{
   --color-bg : #DDD;
   --color-text : #333;
   --border-color : #CCC;
+=======
+:root{
+  --color-bg : #0fcac1;
+  --color-text : #b6b6b6;
+  --border-color : #949090;
+>>>>>>> 448bbd9c45c57c235087bd481f9651da5a8a8275
   --btn : #888;
 }
 /************************************* Frame Work ************************************/
@@ -11,6 +18,10 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+<<<<<<< HEAD
+=======
+img{width: 100%;}
+>>>>>>> 448bbd9c45c57c235087bd481f9651da5a8a8275
 a{text-decoration: none; color: #333;}
 ul{list-style: none;}
 /**************************************************************************************/
@@ -22,6 +33,11 @@ ul{list-style: none;}
 .bg{
   background-color: var(--color-bg);
 }
+<<<<<<< HEAD
+=======
+.text-white{color: #fff;}
+.text-color{color:var(--color-text)}
+>>>>>>> 448bbd9c45c57c235087bd481f9651da5a8a8275
 .column_1,.column_2,.column_3,.column_4,.column_5,.column_6,.column_7,
 .column_8,.column_9,.column_10,.column_11,.column_12{
   position: relative;
@@ -169,7 +185,11 @@ ul{list-style: none;}
 .rounded-circle{border-radius:50% ;}
 .rounded-0{border-radius: 0 ;}
 
+<<<<<<< HEAD
 .clear_float{clear: both;}
+=======
+.clear-float{clear: both;}
+>>>>>>> 448bbd9c45c57c235087bd481f9651da5a8a8275
 .float-left{float: left;}
 .float-right{float: right;}
 
@@ -183,7 +203,11 @@ ul{list-style: none;}
 
 /********************************* Property Name ************************/
 .over-h{overflow: hidden;}
+<<<<<<< HEAD
 
+=======
+.position-relative{position: relative;}
+>>>>>>> 448bbd9c45c57c235087bd481f9651da5a8a8275
 .text-center{text-align: center;}
 .text-right{text-align: right;}
 .text-left{text-align: left;}
@@ -228,4 +252,7 @@ ul{list-style: none;}
   
 }
 
+<<<<<<< HEAD
 /* Thana' touches hhhh*/
+=======
+>>>>>>> 448bbd9c45c57c235087bd481f9651da5a8a8275
