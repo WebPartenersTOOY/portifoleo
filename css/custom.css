@@ -1,0 +1,132 @@
+/* header part */
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.header{
+    overflow: hidden;
+    background-image: url("../img/chair.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 380px; 
+    height: 500px;
+}
+.header_nav .logo{
+float: left; 
+width: 29px;
+}
+.header_nav .list{
+float: right;
+list-style-type: none;
+}
+.list-item{
+float: left;
+}
+.list-item-link{
+float: left;
+padding: 0px 12px;
+text-decoration: none;
+text-transform: uppercase;
+}
+.list-item-link:hover{
+    color: rgb(255, 0, 179);
+}
+.list-item-link,.header_nav .logo{
+    line-height: 32px;
+} 
+.list-item-link.active{
+    color: rgb(255, 0, 179); 
+}
+.header_nav .logo,.header_nav .list{
+    height: 32px;
+} 
+.primary-btn{
+    background-color: aqua;
+    display: inline-block;
+    padding: 6px 12px;
+}
+.half-width{
+    width: 50%;
+}
+.third-width{
+    width: 33%;
+}
+.clear-both{
+    clear: both;
+}
+.about_me p{
+    font-weight: lighter;
+    margin-top: 30px;
+    color: #7b8386;
+    margin-bottom: 30px;
+} 
+.about_me h1{color:#191d1c;}
+.about_me button{
+    color: azure;
+    border-radius: 3px;
+    border-color: azure;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.header_content{
+    margin-top: 75px;
+    float: right; 
+}
+.full-width{
+    width: 100%;
+}
+
+/* about me part */
+.about_us{ 
+    text-align: center;
+    margin: 0 auto;
+}
+.about_us h1{
+    text-transform: capitalize;
+}
+.about_us p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+/* professional skills */
+.professional-skills{
+    height: 500px;
+    overflow: hidden;
+    background-image: url("../img/gift_card_grass.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 380px;
+}
+.capitalize-case{
+    text-transform: capitalize;
+}
+.upper-case{
+    text-transform: uppercase;
+}
+.professional-skills1 span,.professional-skills2 span,.professional-skills3 span{
+    height: 7px;
+    display: inline-block;
+}
+.bg-aqua-color{
+    background-color: aqua;
+}
+.three-fourth{
+    width: 75%;
+}
+.ninety{
+    width: 90%;
+}
+.sixty-five{
+    width: 65%;
+}
+.professional-skills .content{
+    margin-top: 100px;
+}
+.professional-skills .content h6{
+    margin-top: 30px;
+}
+.professional-skills .content span{
+    margin-top: 5px;
+}
